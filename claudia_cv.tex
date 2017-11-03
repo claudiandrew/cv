@@ -1,0 +1,287 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv2}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% modern themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.8,top=1cm, bottom=1cm]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+\usepackage{import}
+% personal data
+\name{Claudia}{Sikorski}
+\title{Curriculum Vitae}                               % optional, remove / comment the line if not wanted
+\address{11 Simmons Boulevard, Brampton, Ontario, Canada, L6V 3V3}{}{}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+%\phone[mobile]{+44 12345 12345}                   % optional, remove / comment the line if not wanted
+\phone[fixed]{905-781-1732}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{c.sikorski272@gmail.com}                               % optional, remove / comment the line if not wanted
+\homepage{claudiasikorski.github.io/}                         % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}
+%\photo[64pt][0.4pt]{picture} '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+%\extrainfo{additional information}
+%\photo[64pt][0.4pt]{picture} '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\usepackage{enumerate}
+\usepackage{amssymb}
+
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+
+\newpage
+\makecvtitle
+\vspace*{-10mm}
+
+\section{Education}
+\vspace{5pt}
+\cventry{2013--2018}{Health Studies, Co-operative Program}{Honours Bachelor of Science}{}{\textit{Applied Health Sciences, University of Waterloo}}{}
+\vspace{4pt}
+\begin{itemize}
+\item[] Thesis: Investigating substance use patterns among Aboriginal youth in Canada
+\item[] Supervisors: Dr. Scott Leatherdale and Dr. Martin Cooke
+ \end{itemize}
+ 
+\section{Technical Skills}
+\begin{itemize}
+\item[-] R Programming Language, SAS, Microsoft Office Suite, Windows, Linux, GIT 
+\end{itemize}
+ 
+\section{Research Experience}
+\vspace{6pt}
+\cventry{September 2017 – Present}{Data Analyst with Dr. David Hammond}{University of Waterloo School of Public Health and Health Systems}{Waterloo, ON}{}{}{\vspace{2pt} 
+\begin{itemize}
+\item[-] Analyzing survey data on price, purchase sources and prevalence of different modes of cannabis
+\item[-] Currently completing paper: "Cannabis purchasing and sources among young Canadians: The Cannabis Purchase and Consumption Tool (CPCT)"
+\end{itemize}
+\vspace{10pt}
+
+\cventry{January 2016 – Present}{Researcher with Dr.Catherine Kreatsoulas}{Harvard T.H. Chan School of Public Health}{Remote}{}{}{\vspace{2pt} 
+\begin{itemize}
+\item[-] Conducting meta-analysis to investigate the link between adverse childhood experiences and adult health outcomes
+\end{itemize}
+\vspace{10pt}
+
+\cventry{January 2017 – August 2017}{Analyst, Prescription Drug Abuse Program}{Canadian Institute for Health Information}{Ottawa, ON}{}{}{\vspace{2pt} 
+\begin{itemize}
+\item[-] Producing novel analyses in SAS using Canadian hospitalization, emergency department and survey data
+\item[-] Delivering presentations to team, at company-wide Analyst Forum and to the Office of the CEO
+\item[-] Identifying credible evidence and critically assessing published literature for relevancy and quality
+\item[-] Reviewing work of Senior Analysts and proposing enhancements for analysis/presentation of information
+\end{itemize}
+\vspace{10pt}
+
+\cventry{May 2016 - August 2016}{Data Analyst, Vision and Motor Performance Lab}{University of Waterloo School of Optometry and Vision Science}{Waterloo, ON}{}{}{\vspace{2pt} 
+\begin{itemize}
+\item[-] Exploratory data analysis of the Vision and Motor Performance Lab clinical database using R, including novel use of  of applied machine learning within the field of optometry
+\item[-] Manuscript outlining normative data of visual function in athletes in review
+\end{itemize}
+\vspace{10pt}
+
+\cventry{August 2015 - December 2015}{Cardiology Research Assistant}{Hamilton General Hospital}{Hamilton, ON}{}{}{\vspace{2pt}
+\begin{itemize}
+\item[-] Recruited and interviewed up to 200 patients to HERMES Cardiolinguistics Study to characterize pain symptoms commonly experienced in women and men with suspected coronary artery disease
+\item[-]  Completed telephone follow ups and analyzed patient data to identify trends 
+\end{itemize}
+\vspace{10pt}
+
+\cventry{January 2015 – April 2015}{Cancer Genetics Assistant}{Sunnybrook Health Sciences Centre}{Toronto, ON}{}{}{\vspace{2pt} 
+\begin{itemize}
+\item[-] Exceled in the utilization of IBIS, BOADECIA, and BRCAPRO risk model software to accurately generate cancer risk profiles for patients, specifically for breast and ovarian cancer
+\end{itemize}
+\vspace{10pt}
+
+\cventry{October 2011 – June 2016}{Self-employed}{Private Tutor}{Brampton, ON}{}{}{\vspace{2pt} 
+\begin{itemize}
+\item[-] High school level Mathematics, Biology, Chemistry, Physics and English tutor
+\end{itemize}
+
+
+\newpage
+\makecvtitle
+\vspace*{-10mm}
+\section{Conference Presentations and Posters}
+
+\vspace{6pt}
+\cventry{}{Presented}{Adverse Childhood Experiences: 
+A Risk Factor for Headaches?}{}{Headaches and Hormones, University of Toronto, 2017}{}{\vspace{2.5pt} 
+\begin{itemize}
+\item[-] Explores how adversities in childhood are a latent risk factor for headaches and migraines in adulthood
+\end{itemize}
+
+\vspace{6pt}
+\cventry{}{Presented}{Does a history of concussion matter?}{}{American Academy of Optometry 2017 Conference}{}{\vspace{2.5pt} 
+\begin{itemize}
+\item[-] Examines if residual defects in visual functioning persist after concussions have healed
+\end{itemize}
+
+\vspace{6pt}
+\cventry{}{Presented}{Establishment of Normative Values Describing the Visual Function of Varsity Athletes}{}{American Academy of Optometry 2017 Conference}{}{\vspace{2.5pt} 
+\begin{itemize}
+\item[-] Establishes normative data for varsity athletes aged 17 to 29 by sport and gender
+\end{itemize}
+
+\vspace{6pt}
+\cventry{}{Poster Presented}{Methodology Framework for Screening Grey and Peer-Reviewed Literature for SR}{}{The Public Health Association of British Columbia 2016 Conference}{}{\vspace{2.5pt} 
+\begin{itemize}
+\item[-] Outline of open source methodology for screening grey and peer reviewed literature to conduct public health systematic reviews
+\end{itemize}
+
+\vspace{6pt}
+\cventry{}{Presented}{Numerical Approximation of the Inverse Standardized Loss Function}{}{Canadian Operations Research Society 2016 Conference}{}{\vspace{2.5pt} 
+\begin{itemize}
+\item[-] Collaborated with researchers at Waterloo and MIT to numerically approximate the Loss Function
+\end{itemize}
+
+
+%\cventry{January 2011 – Present}{Mathematics, Sciences and English}{Private Tutor}{GTA}{}{}{\vspace{2.5pt} 
+%$\cdot$ Schedule weekly tutorial appointments, guide student through curriculum, and develop stimulating study strategies and techniques to broaden student’s ability to solve problems 
+%\newpage
+%\makecvtitle
+%\vspace*{-10mm}
+\section{Community Activities}
+\vspace{2pt}
+\cventry{January 2016 – April 2016}{Educational Coordinator}{Canadian Cancer Society}{Waterloo, ON}{}{}{\vspace{2pt} 
+\begin{itemize}
+\item[-] Agent of Change through fundraising, awareness, educational and social campaigns to fight cancer
+\item[-] Obtain and creating educational resources to present in front of an audience to create awareness 
+\end{itemize}
+
+\vspace{5pt}
+\cventry{January 2014 – April 2014}{Program Coordinator}{Clair Hills Retirement Community}{Waterloo,ON}{}{}{\vspace{2pt} 
+\begin{itemize}
+\item[-] Personally developed and ran a healthy weekly baking club for the residents
+\end{itemize}
+
+\vspace{5pt}
+\cventry{September 2013 – April 2014}{Science Club}{Mary Johnston Public School}{Waterloo, ON}{}{}{\vspace{2pt} 
+\begin{itemize}
+\item[-] Supported the coordinator to organize a weekly science club for students from grades one to six
+\end{itemize}
+
+\section{Awards and Scholarships}
+\textbf{Hallman Undergraduate Research Fellowship, University of Waterloo, 2018} 
+\begin{itemize}
+\item[-] Will received in January 2018 for research on substance use among Aboriginal youth in Canada 
+\end{itemize}
+{\vspace{8pt}
+\textbf{Term Dean's Honours List, University of Waterloo, 2013-2017} 
+\begin{itemize}
+\item[-] Awarded for all completed semesters for achievement of a minimum overall term average of 80\%
+\end{itemize}
+{\vspace{8pt}
+\textbf{President's Scholarship, University of Waterloo, 2013}
+\begin{itemize}
+\item[-] Entrance scholarship awarded based on an admission average of 90 – 94.9\% 
+\end{itemize}
+{\vspace{8pt}
+\textbf{Canadian Federation of University Women Brampton Scholarship, 2013} 
+\begin{itemize}
+\item[-] Granted based on academic excellence and the participation in school and community activities
+\end{itemize}
+
+
+\newpage
+\makecvtitle
+\vspace*{-7mm}
+\section{References}
+\vspace{5pt}
+
+\large
+\textbf{Dr. Catherine Kreatsoulas, PhD, Msc, BSc (Hons)} \\*
+Principal Investigator, HERMES Study \\*
+Principal Investigator, Adverse Childhood Experiences Systematic Review \\*
+Harvard T.H. Chan School of Public Health \\*
+677 Huntington Avenue \\*
+Boston, MA 02115 \\*
+Email: ckreats@hsph.harvard.edu \\*
+857-756-3799 or 905-510-4467\\
+\vspace{10pt}
+
+\large
+\textbf{Dr. Scott Leatherdale, BPHE, MA, PhD} \\*
+Supervisor, Undergraduate Thesis\\*
+Associate Professor, School of Public Health and Health Systems \\*
+The University of Waterloo \\*
+200 University Avenue West\\*
+Waterloo, ON, N2L 3G1\\*
+Email: sleather@uwaterloo.ca \\*
+519-888-4567 x 37812 \\
+\vspace{10pt}
+
+\large
+\textbf{Dr. Martin Cooke, BA, MA, PhD} \\*
+Supervisor, Undergraduate Thesis\\*
+Associate Professor, School of Public Health and Health Systems\\*
+The University of Waterloo\\*
+200 University Avenue West\\*
+Waterloo, ON, N2L 3G1\\*
+Email: cooke@uwaterloo.ca \\*
+519-888-4567 x 36585 \\
+\vspace{10pt}
+
+\large
+\textbf{Dr. Kristine Dalton, OD, PhD, MCOptom, FAAO, FBCLA} \\*
+Head of the Vision and Motor Performance Lab\\*
+The University of Waterloo School of Optometry and Vision Science\\*
+200 Columbia Street West\\*
+Waterloo, ON, N2L 3G1\\*
+Email: kristine.dalton@uwaterloo.ca \\*
+519-888-4567 x 37915 \\
+\vspace{10pt}
+
+\end{document}
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+%nocite{*}
+%bibliographystyle{plain}
+%bibliography{publications}                        % 'publications' is the name of a BibTeX file
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+
+
+
+
+%% end of file `template.tex'.
